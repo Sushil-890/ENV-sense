@@ -7,7 +7,7 @@ function Home() {
 
   const fetchWeather = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/weather/${city}`);
+      const response = await fetch(`https://env-sense.onrender.com/api/weather/${city}`);
       const data = await response.json();
       console.log("Fetched weather:", data);
       setWeather(data);
