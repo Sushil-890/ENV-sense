@@ -1,4 +1,4 @@
-const Vlog = require('../models/vlog');
+const Vlog = require('../Models/vlog');
 
 // Create a new vlog post
 const createVlog = async (req, res) => {
