@@ -14,7 +14,7 @@ function NatureSnap() {
   useEffect(() => {
     const fetchVlogs = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/vlogs');
+        const res = await fetch('https://env-sense.onrender.com/api/vlogs');
         const data = await res.json();
         setVlogs(data);
         setLoading(false);
