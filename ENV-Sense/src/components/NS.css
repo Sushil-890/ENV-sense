@@ -1,0 +1,110 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.container h2 {
+  text-align: center;
+  color: #1d4ed8;
+}
+
+/* Upload Form */
+form {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+form input::placeholder {
+  color: #94a3b8;
+}
+
+form button {
+  margin-top: 0.5rem;
+  padding: 10px;
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form button:hover {
+  background-color: #15803d;
+}
+
+/* Filter Toggle */
+input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+label {
+  color: #334155;
+  font-weight: 500;
+}
+
+/* Vlog Cards */
+.vlog-card {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.vlog-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.vlog-card p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.vlog-username {
+  font-weight: 600;
+  color: #1d4ed8;
+}
+
+.vlog-caption {
+  font-style: italic;
+  color: #475569;
+}
+
+/* Like Button */
+.like-button {
+  margin-top: 8px;
+  background-color: #ec4899;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.like-button:hover {
+  background-color: #db2777;
+}

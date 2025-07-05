@@ -1,0 +1,217 @@
+/* === Base styles === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e0f2fe; /* light blue */
+  color: #222;
+}
+
+/* === ENV Navbar === */
+.env-navbar {
+  background-color: #2563eb;
+  color: white;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.env-navbar-logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.env-navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.env-nav-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.env-nav-btn:hover {
+  text-decoration: underline;
+}
+
+/* === Profile Dropdown === */
+.env-profile-container {
+  position: relative;
+}
+
+.env-profile-box {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-color: #f97316;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 180px;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.env-profile-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.env-username {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.env-logout-btn {
+  background-color: #ef4444;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.env-logout-btn:hover {
+  background-color: #b91c1c;
+}
+
+.env-login-btn,
+.env-profile-btn {
+  background-color: #0ea5e9;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.env-login-btn:hover,
+.env-profile-btn:hover {
+  background-color: #0284c7;
+}
+.ban-bag {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Banner with light overlay */
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url(https://images.pond5.com/weather-forecast-background-time-lapse-footage-036432391_iconl.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #1e293b; /* Slate text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+  padding: 20px;
+}
+
+/* Heading */
+.banner h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #2563eb; /* ENV-sense blue */
+}
+
+/* Subtext */
+.banner p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #0f172a; /* Deep slate */
+}
+
+/* === Pages Wrapper === */
+.env-home,
+.env-about,
+.env-help,
+.env-profile-page {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* === Input and Button === */
+.env-city-input {
+  padding: 8px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.env-weather-btn {
+  padding: 8px 16px;
+  margin-top: 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.env-weather-btn:hover {
+  background-color: #2563eb;
+}
+
+/* === Error message === */
+.env-error {
+  color: red;
+  margin-top: 1rem;
+}
+
+/* === Weather Output Box === */
+.env-weather-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8fafc;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.env-weather-box h2 {
+  margin-bottom: 0.5rem;
+}
+
+.env-weather-box p {
+  margin: 4px 0;
+  font-size: 1.1rem;
+}
+
+/* === Footer === */
+.env-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2563eb;
+  color: white;
+}

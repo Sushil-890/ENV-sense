@@ -1,0 +1,46 @@
+[
+  {
+    "condition": "clear sky",
+    "suggestion": "It's sunny out! Don't forget your sunglasses 😎"
+  },
+  {
+    "condition": "few clouds",
+    "suggestion": "A few clouds in the sky. Enjoy the fresh air 🌤️"
+  },
+  {
+    "condition": "scattered clouds",
+    "suggestion": "Some clouds around. A perfect day for a walk ☁️"
+  },
+  {
+    "condition": "broken clouds",
+    "suggestion": "Cloudy skies. You might want a light jacket 🧥"
+  },
+  {
+    "condition": "shower rain",
+    "suggestion": "Short rain showers expected. Keep an umbrella handy ☔"
+  },
+  {
+    "condition": "rain",
+    "suggestion": "It’s raining! Don’t forget your umbrella and raincoat 🌧️"
+  },
+  {
+    "condition": "thunderstorm",
+    "suggestion": "Thunderstorm ahead. Better to stay indoors ⚡"
+  },
+  {
+    "condition": "snow",
+    "suggestion": "Snowfall! Wear warm clothes and boots ❄️🧤"
+  },
+  {
+    "condition": "mist",
+    "suggestion": "It's misty. Drive carefully and use fog lights 🌫️"
+  },
+  {
+    "condition": "haze",
+    "suggestion": "Hazy weather. Wearing a mask is a good idea 😷"
+  },
+  {
+    "condition": "overcast clouds",
+    "suggestion": "Overcast skies today. Good day to stay cozy indoors ☁️"
+  }
+]
