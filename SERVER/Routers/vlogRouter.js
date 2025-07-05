@@ -3,7 +3,7 @@ const{
   createVlog,
   getAllVlogs,
   toggleLike
-} = require('../controllers/vlogconrolller.js');
+} = require('../controllers/vlogcontrol.js');
 const { authenticate } = require('../Middleware/AuthMiddleware.js'); 
 
 
