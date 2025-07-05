@@ -1,9 +1,5 @@
 const router = require('express').Router();
-const{
-  createVlog,
-  getAllVlogs,
-  toggleLike
-} = require('../controllers/vlogcontrol.js');
+const{createVlog, getAllVlogs, toggleLike} = require('../controllers/vlogcontroller.js');
 const { authenticate } = require('../Middleware/AuthMiddleware.js'); 
 
 
