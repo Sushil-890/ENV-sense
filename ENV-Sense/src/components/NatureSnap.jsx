@@ -30,7 +30,7 @@ function NatureSnap() {
   const handleUpload = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/vlogs', {
+      const res = await fetch('https://env-sense.onrender.com/api/vlogs', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -50,7 +50,7 @@ function NatureSnap() {
 
   const handleLike = async (vlogId) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/vlogs/like/${vlogId}`, {
+      const res = await fetch(`https://env-sense.onrender.com/api/vlogs/like/${vlogId}`, {
         method: 'PUT',
         headers: {
           Authorization: `Bearer ${token}`,
