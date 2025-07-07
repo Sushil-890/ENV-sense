@@ -215,3 +215,82 @@ body {
   background-color: #2563eb;
   color: white;
 }
+/* === Responsive Media Queries === */
+
+/* For tablets (width <= 768px) */
+@media screen and (max-width: 768px) {
+  .env-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .env-navbar-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .env-profile-box {
+    top: 50px;
+    width: 160px;
+    padding: 8px;
+  }
+
+  .banner h1 {
+    font-size: 28px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+
+  .env-city-input {
+    width: 100%;
+  }
+
+  .env-home,
+  .env-about,
+  .env-help,
+  .env-profile-page {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+/* For small devices (width <= 480px) */
+@media screen and (max-width: 480px) {
+  .env-navbar {
+    padding: 1rem;
+  }
+
+  .env-navbar-logo {
+    font-size: 1.1rem;
+  }
+
+  .env-nav-btn,
+  .env-login-btn,
+  .env-profile-btn {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+  }
+
+  .banner h1 {
+    font-size: 22px;
+  }
+
+  .banner p {
+    font-size: 14px;
+  }
+
+  .env-weather-btn {
+    width: 100%;
+  }
+
+  .env-weather-box p {
+    font-size: 1rem;
+  }
+
+  .env-footer {
+    font-size: 0.9rem;
+  }
+}
