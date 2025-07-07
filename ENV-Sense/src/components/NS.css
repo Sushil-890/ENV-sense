@@ -108,3 +108,70 @@ label {
 .like-button:hover {
   background-color: #db2777;
 }
+/* === Responsive Media Queries === */
+
+/* For tablets (width <= 768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 1.5rem 1rem;
+    padding: 1rem;
+  }
+
+  form input[type="text"] {
+    font-size: 0.9rem;
+  }
+
+  form button {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  .vlog-card img {
+    height: 200px;
+  }
+
+  .vlog-card p {
+    font-size: 0.9rem;
+  }
+
+  .like-button {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+}
+
+/* For small devices (width <= 480px) */
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 1rem 0.5rem;
+    padding: 0.8rem;
+  }
+
+  .container h2 {
+    font-size: 1.3rem;
+  }
+
+  form input[type="text"] {
+    font-size: 0.85rem;
+    padding: 8px;
+  }
+
+  form button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .vlog-card img {
+    height: 160px;
+  }
+
+  .vlog-card p {
+    font-size: 0.85rem;
+  }
+
+  .like-button {
+    padding: 6px;
+    font-size: 0.9rem;
+  }
+}
+
